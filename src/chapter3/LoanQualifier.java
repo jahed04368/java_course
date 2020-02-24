@@ -10,7 +10,7 @@ import java.util.Scanner;
  */
 public class LoanQualifier {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
 
         //Initialize what we know
         int requiredSalary = 30000;
@@ -27,19 +27,16 @@ public class LoanQualifier {
         scanner.close();
 
         //Make decision
-        if(salary >= requiredSalary){
-            if(years >= requiredYearsEmployed){
+        if (salary >= requiredSalary) {
+            if (years >= requiredYearsEmployed) {
                 System.out.println("Congrats! You qualify for the loan");
-            }
-            else{
+            } else {
                 System.out.println("Sorry, you must have worked at your current job "
                         + requiredYearsEmployed + " years.");
             }
-        }
-        else{
+        } else {
             System.out.println("Sorry, you must earn at least $"
                     + requiredSalary + " to qualify for the loan");
         }
-
     }
 }

@@ -1,9 +1,9 @@
 package chapter2;
 
-        import org.omg.CORBA.PUBLIC_MEMBER;
-        import sun.applet.Main;
+import org.omg.CORBA.PUBLIC_MEMBER;
+import sun.applet.Main;
 
-        import java.util.Scanner;
+import java.util.Scanner;
 
 public class GroosPayCalculator {
 
