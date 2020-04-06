@@ -1,4 +1,4 @@
-package chapter3;
+package TestAutomation.chapter2.chapter3;
 
 import java.util.Scanner;
 

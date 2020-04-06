@@ -1,7 +1,4 @@
-package chapter2;
-
-import org.omg.CORBA.PUBLIC_MEMBER;
-import sun.applet.Main;
+package TestAutomation.chapter2;
 
 import java.util.Scanner;
 
