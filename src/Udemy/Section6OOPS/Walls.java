@@ -1,14 +1,14 @@
 package Udemy.Section6OOPS;
 
-public class Wall {
+public class Walls {
     private double width;
     private double height;
 
-    public Wall() {
+    public Walls() {
         this.width = width;
         this.height = height;
     }
-    public Wall(double width, double height) {
+    public Walls(double width, double height) {
         setWidth(width);
         setHeight(height);
     }

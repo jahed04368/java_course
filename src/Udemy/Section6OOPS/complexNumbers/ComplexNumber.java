@@ -1,10 +1,10 @@
 package Udemy.Section6OOPS.complexNumbers;
 
-public class ComplexNumbers {
+public class ComplexNumber {
     private double real;
     private double imaginary;
 
-    public ComplexNumbers(double real, double imaginary) {
+    public ComplexNumber(double real, double imaginary) {
         this.real = real;
         this.imaginary = imaginary;
     }
@@ -22,9 +22,9 @@ public class ComplexNumbers {
         this.imaginary += imaginary;
     }
 
-    public void add(ComplexNumbers complexNumbers){
-        this.real += complexNumbers.real;
-        this.imaginary += complexNumbers.imaginary;
+    public void add(ComplexNumber complexNumber){
+        this.real += complexNumber.real;
+        this.imaginary += complexNumber.imaginary;
     }
 
     public void subtract(double real, double imaginary){
@@ -32,8 +32,8 @@ public class ComplexNumbers {
         this.imaginary -= imaginary;
     }
 
-    public void subtract(ComplexNumbers complexNumbers){
-        this.real -= complexNumbers.real;
-        this.imaginary -= complexNumbers.imaginary;
+    public void subtract(ComplexNumber complexNumber){
+        this.real -= complexNumber.real;
+        this.imaginary -= complexNumber.imaginary;
     }
 }
